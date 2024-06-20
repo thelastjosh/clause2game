@@ -1,4 +1,8 @@
 module Main where
 
+import Analysis.Warranty
+
 main :: IO ()
-main = undefined
+main = do
+  let results = simulatedScenarioWarranty1
+  do print results
